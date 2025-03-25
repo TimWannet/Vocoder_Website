@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        header {
+            width: 100%;
+            padding: 15px;
+            background: #333;
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .text {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+        .text h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+        .text p {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>My Website</header>
+    <div class="container">
+        <div class="image">
+            <img src="image.jpg" alt="Placeholder Image">
+        </div>
+        <div class="text">
+            <h1>Coming Soon!</h1>
+            <p>Something exciting is on the way. Stay tuned!</p>
+        </div>
+    </div>
+</body>
+</html>
