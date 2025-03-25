@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Articles"
+  - title: "Updates"
     url: /categories/
   - title: "About"
     url: /about-your-name-here/
