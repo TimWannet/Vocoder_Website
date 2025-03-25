@@ -4,29 +4,29 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Site Settings
 title: "Open Source DIY vocoder"
-subtitle: "Awesome Site Template"
+subtitle: ""
 name: "Tim Wannet"
 description: "Yn!"
 locale: "en-US"
 breadcrumbs: true
 search: true
 
-# Site Author
-author:
-  name   : "Your Name"
-  bio: "Your Bio"
-  avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
-  location: Localhost, GitHub
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/"
+# # Site Author
+# author:
+#   name   : "Your Name"
+#   bio: "Your Bio"
+#   avatar : "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
+#   location: Localhost, GitHub
+#   links:
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://www.linkedin.com/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "YouTube"
+#       icon: "fab fa-fw fa-youtube"
+#       url: "https://www.youtube.com/"
 
 # Social Sharing
 og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
