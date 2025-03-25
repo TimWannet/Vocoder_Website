@@ -1,12 +1,12 @@
 ---
 title: "The Journey Begins!"
-excerpt: "Discover more about this site template."
+excerpt: "first update, click to read more."
 header:
-  teaser: "/assets/images/Design_brainstorm.png"
+  teaser: "/assets/images/Y1.png"
 categories:
   - Video Update
 ---
-## Update #1 – 
+## Update #1
 
 The vocoder project is officially underway, and I’m excited to share the first update with you!
 This is the start of an open-source journey where I’ll be designing, building, and fine-tuning a fully-featured vocoder.
