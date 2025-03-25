@@ -1,32 +1,26 @@
 ---
-title: "Post example"
+title: "The Journey Begins!"
 excerpt: "Discover more about this site template."
 header:
-  teaser: "/assets/images/iss-crossing-the-moon.webp"
+  teaser: "/assets/images/Design_brainstorm.png"
 categories:
-  - Blog
+  - Video Update
 ---
+## Update #1 – 
 
-![ISS crossing the moon]({{ site.baseurl }}/assets/images/iss-crossing-the-moon.webp)
+The vocoder project is officially underway, and I’m excited to share the first update with you!
+This is the start of an open-source journey where I’ll be designing, building, and fine-tuning a fully-featured vocoder.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=rL30RTtkXGY" frameborder="0" allowfullscreen></iframe>
+In this first video, I introduce the project and what a vocoder is, break down my initial design goals, and go over the hardware I’ll be working with.
+Also at the end I give a small demo to showcase what the software can do so far.
 
+Enjoy the full video here:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rL30RTtkXGY?si=-Q6QVQuByqNHApit" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Template built on [Jekyll](https://jekyllrb.com) & [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+I’ll be posting regular updates (every two weeks) as I refine the design, troubleshoot challenges, and bring this vocoder to life.
 
-[BTN-Primary](#){: .btn .btn--primary } [BTN-Success](#){: .btn .btn--success} [BTN-Danger](#){: .btn .btn--danger}
+If you’re as excited about this as I am, stay tuned for more blog posts and videos—and don’t forget to sign up if you want to be among the first to get a kit or build your own! 
 
-Watch out! This paragraph of text has been emphasized with the `{: .notice--warning}` class.
-{: .notice--warning}
+<!--## Newsletter
 
-Watch out! This paragraph of text has been emphasized with the `{: .notice--success}` class.
-{: .notice--success}
-
-Watch out! This paragraph of text has been emphasized with the `{: .notice--danger}` class.
-{: .notice--danger}
-
-For detailed instructions check [Minimal Mistakes Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
-
-## Newsletter example
-
-{% include newsletter.html %}
+{% include newsletter.html %}-->
