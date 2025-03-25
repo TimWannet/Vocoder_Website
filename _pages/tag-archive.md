@@ -1,5 +1,5 @@
 ---
-title: "Articles by Tag"
+title: "Updates by Tag"
 permalink: /tags/
 layout: tags
 author_profile: true
