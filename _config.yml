@@ -4,7 +4,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Site Settings
 title: "Open Source DIY vocoder"
-subtitle: ""
+subtitle: "Version 0.01"
 name: "Tim Wannet"
 description: "Yn!"
 locale: "en-US"
