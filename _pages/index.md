@@ -1,9 +1,12 @@
 ---
 layout: home
 permalink: /
-title: "Something Awesome!"
+title: "Coming soon:"
 ---
 
+test
+
+<!--
 ## GitHub Page Template
 
 A simple, clean, and responsive theme for your website or blog.
@@ -26,4 +29,4 @@ int main(void) {
 ```bash
 #!/bin/bash
 echo "Hello World"
-```
+```-->
