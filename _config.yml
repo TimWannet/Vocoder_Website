@@ -62,7 +62,7 @@ defaults:
       comments: true
       classes: wide
       header:
-        teaser: "/assets/images/4.jpeg"
+        teaser: "/assets/images/4.jpg"
   # _pages
   - scope:
       path: "_pages"
@@ -72,7 +72,7 @@ defaults:
       author_profile: true
       classes: wide
       header:
-        overlay_image: "/assets/images/4.jpeg"
+        overlay_image: "/assets/images/4.jpg"
         overlay_filter: 0.3
         actions:
           - label: "❤️ click here for the github page"
