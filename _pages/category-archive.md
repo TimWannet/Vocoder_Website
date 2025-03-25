@@ -1,5 +1,5 @@
 ---
-title: "Articles by category"
+title: "Updates"
 permalink: /categories/
 layout: categories
 ---
