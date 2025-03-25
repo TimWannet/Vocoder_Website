@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 
-# About You page example
+# About You page
 
 Coming soon.
 
@@ -11,7 +11,7 @@ Coming soon.
 
 Coming soon.
 
-## ❤️ Become a Sponsor example
+## ❤️ Become a Sponsor
 
 If you have found my work useful, please support me!
 
