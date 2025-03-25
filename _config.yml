@@ -3,10 +3,10 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Site Settings
-title: "Site Template"
+title: "Open Source DIY vocoder"
 subtitle: "Awesome Site Template"
-name: "Your Name"
-description: "Your website description!"
+name: "Tim Wannet"
+description: "Yn!"
 locale: "en-US"
 breadcrumbs: true
 search: true
@@ -35,7 +35,7 @@ og_image: "https://avatars.githubusercontent.com/u/9919?s=110&v=4"
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: Europe/Paris
+timezone: Europe/Amsterdam
 atom_feed:
   hide: true
 
@@ -75,8 +75,8 @@ defaults:
         overlay_image: "/assets/images/Mont-Blanc.webp"
         overlay_filter: 0.3
         actions:
-          - label: "❤️ Become a Sponsor"
-            url: "https://github.com/sponsors/"
+          - label: "❤️ click here for the github page"
+            url: "https://github.com/TimWannet/Hardware_Vocoder"
 
 category_archive:
   type: liquid
