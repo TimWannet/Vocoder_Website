@@ -21,8 +21,8 @@ It will be available as:
 
 Follow my journey! Blog posts and videos will document every step of development.
 
-Want to be among the first to get your hands on it? Sign up now to show your interest and stay updated! 🚀
-
+### Want to be among the first to get your hands on it? Sign up now to show your interest and stay updated! 🚀
+{: .notice--success}
 
 <form
     action="https://formspree.io/f/mqaplove"
@@ -50,4 +50,3 @@ Want to be among the first to get your hands on it? Sign up now to show your int
     </fieldset>
     <button type="submit">Send</button>
 </form>
-{: .notice--success}
