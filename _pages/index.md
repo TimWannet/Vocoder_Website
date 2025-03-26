@@ -23,27 +23,19 @@ Follow my journey! Blog posts and videos will document every step of development
 
 Want to be among the first to get your hands on it? Sign up now to show your interest and stay updated! 🚀
 {: .notice--success}
-<!--
-## GitHub Page Template
 
-A simple, clean, and responsive theme for your website or blog.
-
-GitHub: <https://github.com/monsieurborges/site-template>
-
-Watch out! This paragraph of text has been emphasized with the `{: .notice--success}` class.
-{: .notice--success}
-
-## Hello World CPP
-
-```cpp
-int main(void) {
-    printf("Hello World");
-}
-```
-
-## Hello World Bash Script
-
-```bash
-#!/bin/bash
-echo "Hello World"
-```-->
+<form
+  action="https://formspree.io/f/mqaplove"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
