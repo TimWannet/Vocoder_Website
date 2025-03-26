@@ -4,7 +4,7 @@ excerpt: "first update, click to read more."
 header:
   teaser: "/assets/images/Y1.png"
 categories:
-  - Video Update
+  - Video Updates
 ---
 ## Update #1
 
