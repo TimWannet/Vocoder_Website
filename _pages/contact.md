@@ -21,7 +21,7 @@ Want to be among the first to get your hands on it? Sign up now to show your int
         <textarea name="message"></textarea>
     </label>
     <fieldset>
-        <legend>What version would you be interested in?:</legend>
+        <legend>What version would you be interested in?</legend>
         <label>
             <input type="radio" name="option" value="option 1 (Full)"> Option 1
         </label>
