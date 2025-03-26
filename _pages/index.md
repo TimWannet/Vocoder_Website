@@ -15,9 +15,9 @@ This vocoder will be fft based meaning you can experience high-quality vocoding 
 ## How can you get one?
 Once the vocoder is a finished product, you’ll have options! 
 It will be available as:
-- A fully assembled unit – Plug and play for the people that just want to make music.
-- DIY kit - Build it yourself with all the necessary parts ready to go.
-- Build your own - Get all the files from the github page and assemble the vocoder from scratch.
+- A fully assembled unit – Plug and play for the people that just want to make music (Option 1).
+- DIY kit - Build it yourself with all the necessary parts ready to go (Option 2).
+- Build your own - Get all the files from the github page and assemble the vocoder from scratch (Option 3).
 
 Follow my journey! Blog posts and videos will document every step of development.
 
@@ -25,17 +25,28 @@ Want to be among the first to get your hands on it? Sign up now to show your int
 {: .notice--success}
 
 <form
-  action="https://formspree.io/f/mqaplove"
-  method="POST"
+    action="https://formspree.io/f/mqaplove"
+    method="POST"
 >
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+    <label>
+        Your email:
+        <input type="email" name="email">
+    </label>
+    <label>
+        add a message, ideas and feedback are always welcome:
+        <textarea name="message"></textarea>
+    </label>
+    <fieldset>
+        <legend>What version would you be interested in?:</legend>
+        <label>
+            <input type="radio" name="option" value="option1"> Option 1
+        </label>
+        <label>
+            <input type="radio" name="option" value="option2"> Option 2
+        </label>
+        <label>
+            <input type="radio" name="option" value="option3"> Option 3
+        </label>
+    </fieldset>
+    <button type="submit">Send</button>
 </form>
