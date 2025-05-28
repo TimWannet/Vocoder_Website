@@ -14,7 +14,7 @@ This vocoder will be fft based meaning you can experience high-quality vocoding 
 
 <div align="center">
 
-## Teaser
+<h2>Teaser</h2>
 
 </div>
 <div style="position: relative; display: inline-block; max-width: 100%;">
@@ -39,10 +39,13 @@ This vocoder will be fft based meaning you can experience high-quality vocoding 
         video.muted = false;
     });
 
-    video.addEventListener('pause', function() {
-        playButton.style.display = '';
+    // Add click to pause after video plays
+    video.addEventListener('click', function() {
+        if (!video.paused) {
+            video.pause();
+            playButton.style.display = '';
+        }
     });
-
     video.addEventListener('play', function() {
         playButton.style.display = 'none';
     });
