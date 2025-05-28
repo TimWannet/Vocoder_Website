@@ -35,7 +35,7 @@ This vocoder will be fft based meaning you can experience high-quality vocoding 
 
     playButton.addEventListener('click', function() {
         video.play();
-        playButton.style.display = 'none';
+        playButton.style.display = 'none'; 
         video.muted = false;
     });
 
