@@ -12,8 +12,41 @@ While it's development is currently in progress, you can follow the creation ste
 
 This vocoder will be fft based meaning you can experience high-quality vocoding without traditional bandpass filter limitations.
 
+<div align="center">
+
 ## Teaser
-<video src="/assets/images/Promo.mp4" autoplay loop muted playsinline style="max-width: 100%; height: auto; border-radius: 8px;"></video>
+
+</div>
+<div style="position: relative; display: inline-block; max-width: 100%;">
+
+    <video id="promoVideo" src="/assets/images/Promo.mp4" loop muted playsinline style="max-width: 100%; height: auto; border-radius: 8px; display: block;"></video>
+
+    <button id="playButton" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.6); border: none; border-radius: 50%; width: 64px; height: 64px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="10,8 26,16 10,24"/>
+        </svg>
+    </button>
+
+</div>
+
+<script>
+    const video = document.getElementById('promoVideo');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', function() {
+        video.play();
+        playButton.style.display = 'none';
+        video.muted = false;
+    });
+
+    video.addEventListener('pause', function() {
+        playButton.style.display = '';
+    });
+
+    video.addEventListener('play', function() {
+        playButton.style.display = 'none';
+    });
+</script>
 
 ## How can you get one?
 Once the vocoder is a finished product, you’ll have options! 
