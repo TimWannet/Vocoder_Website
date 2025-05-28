@@ -74,11 +74,11 @@ defaults:
       header:
         # overlay_image: "/assets/images/4.jpg"
         video:
-          id: "Promo(No Sound).mkv"
+          id: "/assets/Promo(No Sound).mkv"
           loop: true
           autoplay: true
           muted: true
-          controls: false
+          controls: true
         overlay_filter: 0.3
         actions:
           - label: "❤️ click here for the github page"
