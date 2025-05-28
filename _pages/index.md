@@ -13,7 +13,7 @@ While it's development is currently in progress, you can follow the creation ste
 This vocoder will be fft based meaning you can experience high-quality vocoding without traditional bandpass filter limitations.
 
 ## Teaser
-<video src="/assets/images/Promo(No Sound).mkv" autoplay loop muted playsinline style="max-width: 100%; height: auto; border-radius: 8px;"></video>
+<video src="/assets/images/Promo.mkv" autoplay loop muted playsinline style="max-width: 100%; height: auto; border-radius: 8px;"></video>
 
 ## How can you get one?
 Once the vocoder is a finished product, you’ll have options! 
@@ -42,13 +42,13 @@ Follow my journey! Blog posts and videos will document every step of development
     <fieldset>
         <legend>What version would you be interested in?:</legend>
         <label>
-            <input type="radio" name="option" value="option 1 (Full)"> Option 1
+            <input type="radio" name="option" value="option 1 (Full)"> Option 1 (Fully sssembled)
         </label>
         <label>
-            <input type="radio" name="option" value="option 2 (DIY)"> Option 2
+            <input type="radio" name="option" value="option 2 (DIY)"> Option 2 (DIY)
         </label>
         <label>
-            <input type="radio" name="option" value="option 3 (FREE)"> Option 3
+            <input type="radio" name="option" value="option 3 (FREE)"> Option 3 (Build your own)
         </label>
     </fieldset>
     <button type="submit">Send</button>
